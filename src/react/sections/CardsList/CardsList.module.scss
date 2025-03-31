@@ -3,6 +3,7 @@
   height: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: stretch;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
 }
