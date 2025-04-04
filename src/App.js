@@ -1,15 +1,14 @@
 import './App.scss';
-import WrapContainer from "./react/components/containers/WrapContainer/WrapContainer";
 import React from "react";
-import './App.scss'
+import AppRouter from "./react/views/AppRouter";
+import {CartProvider} from "./scripts/hooks/useCart";
 
 function App() {
-  return (
-    <>
-        <h1 className='pageTitle'>Shop Cards App</h1>
-        <WrapContainer />
-    </>
-  );
+    return (
+        <CartProvider>
+            <AppRouter/>
+        </CartProvider>
+    );
 }
 
 export default App;

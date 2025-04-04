@@ -1,0 +1,21 @@
+.cartItems {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+
+    &__summary {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-size: 2rem;
+            margin-right: 20px;
+        }
+    }
+}
