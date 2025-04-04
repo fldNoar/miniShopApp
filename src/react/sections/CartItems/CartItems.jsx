@@ -2,7 +2,7 @@ import React from 'react';
 import CartItem from "../../components/cards/CartItem/CartItem";
 import {useCart} from "../../../scripts/hooks/useCart";
 import cl from "./CartItems.module.scss";
-import DefaulBtn from "../../components/ui/MoreButton/DefaulBtn";
+import DefaultBtn from "../../components/ui/MoreButton/DefaultBtn";
 
 const CartItems = () => {
 
@@ -23,7 +23,7 @@ const CartItems = () => {
 
             <div className={cl.cartItems__summary}>
                 <h3>Итого: {cartTotal.toFixed(2)}$.</h3>
-                <DefaulBtn>Оформить заказ</DefaulBtn>
+                <DefaultBtn>Оформить заказ</DefaultBtn>
             </div>
         </section>
     );

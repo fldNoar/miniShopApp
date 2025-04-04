@@ -1,7 +1,7 @@
 import React from 'react';
-import cl from './MoreButton.module.scss'
+import cl from './DefaultBtn.module.scss'
 
-const DefaulBtn = ({currentLimit, setLimit, children}) => {
+const DefaultBtn = ({currentLimit, setLimit, children}) => {
     return (
         <button
             className={cl.moreBtn}
@@ -12,4 +12,4 @@ const DefaulBtn = ({currentLimit, setLimit, children}) => {
     );
 };
 
-export default DefaulBtn;
+export default DefaultBtn;

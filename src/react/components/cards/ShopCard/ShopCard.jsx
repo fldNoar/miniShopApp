@@ -8,7 +8,7 @@ const ShopCard = ({cardProps, addToCart}) => {
 
     return (
         <article className={styles.shopCard}>
-            <img className={styles.shopCard__img} src={cardProps.images[0]} alt="image"/>
+            <img className={styles.shopCard__img} src={cardProps.images[0]} alt="prod-img"/>
             <h2 className={styles.shopCard__title}>{slicedTitle}</h2>
             <p className={styles.shopCard__descr}>{cardProps.description}</p>
             <div>

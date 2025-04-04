@@ -9,12 +9,4 @@ export default class CardsService {
         });
         return response.data.products;
     }
-
-    static async getMoreProducts(limit) {
-        const response = await axios.get(`https://dummyjson.com/products`, {
-            params: {
-                limit
-            }
-        })
-    }
 }

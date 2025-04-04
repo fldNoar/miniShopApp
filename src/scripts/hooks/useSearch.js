@@ -1,6 +1,6 @@
 import {useMemo, useState} from "react";
 
-export const useSerch = (cards) => {
+export const useSearch = (cards) => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const searchedCards = useMemo(() => {
